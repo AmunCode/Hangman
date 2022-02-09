@@ -7,6 +7,6 @@ TODO LIST:
   - If letter is in the word, show the letter position in the user output. Else, draw body part (Junior) 
   - Update progress to user (NameUser5)
   - Manage guesses, was the letter already guessed (Dan)
-  - Manage Inmages(Amun)
+  - Manage Images(Amun)(DONE)
 
 Due Tuesday 2/15/2022.
