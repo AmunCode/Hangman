@@ -6,8 +6,8 @@ userinput: bool = True
 while userinput:
     letter = input("Guess A Letter ")
     if not letter in guesses:
-        confirmed = input("Are you Sure? type 'YES' to Confirm, 'NO' to select a different letter ").upper()
-        if confirmed == 'YES':
+        confirm_guess = input("Are you Sure? type 'YES' to Confirm, 'NO' to select a different letter ").upper()
+        if confirm_guess == 'YES':
             userinput: bool = False
             guesses.append(letter)
     else:
