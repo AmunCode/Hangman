@@ -5,7 +5,7 @@ guesses = []
 userinput: bool = True
 while userinput:
     letter = input("Guess A Letter ")
-    if not letter in guesses:
+    if not letter in guesses:               # Check if letter has already been guessed
         confirm_guess = input("Are you Sure? type 'YES' to Confirm, 'NO' to select a different letter ").upper()
         if confirm_guess == 'YES':
             userinput: bool = False
