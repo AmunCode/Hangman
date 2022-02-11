@@ -10,5 +10,7 @@ while userinput:
         if confirmed == 'YES':
             userinput: bool = False
             guesses.append(letter)
+    else:
+        print('That letter has already guessed. Try another one')
 
 print(guesses)
